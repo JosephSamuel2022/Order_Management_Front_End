@@ -1,0 +1,51 @@
+/* ViewOrder.css */
+
+.view-order-container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+.view-order-heading {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.order-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.order-table th,
+.order-table td {
+	border: 1px solid #dddddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.order-table th {
+	background-color: #f2f2f2;
+}
+
+.thumbnail-image {
+	max-width: 50px;
+	max-height: 50px;
+	display: block;
+	margin: auto;
+}
+
+.action-icons {
+	justify-content: center;
+	align-items: center;
+}
+
+.edit-icon,
+.delete-icon {
+	cursor: pointer;
+	margin: 0 5px;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+	color: blue;
+}
